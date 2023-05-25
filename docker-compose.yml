@@ -8,8 +8,7 @@ services:
       NODE_ENV: ${NODE_ENV}
       PORT: ${PORT}
     ports:
-      - "3000:3000"
-      # TODO Research this
+      - "${PORT}:3000"
     volumes:
       - .:/app/
       - /app/node_modules
