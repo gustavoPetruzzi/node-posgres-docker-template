@@ -1,2 +1,1 @@
-# Cache Control
-https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Cache-Control
+# Template for Node and postgres using Docker
